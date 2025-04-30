@@ -1,0 +1,35 @@
+name: flutter_rick_and_morty_characters
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  snappable_thanos: 0.0.4
+  auto_route: 10.0.1
+  cached_network_image: 3.4.1
+  dio: 5.8.0+1
+  equatable: 2.0.7
+  flutter_bloc: 9.1.0
+  flutter:
+    sdk: flutter
+  injectable: 2.5.0
+  get_it: 8.0.3
+  json_annotation: 4.9.0
+  retrofit: 4.4.2
+  shared_preferences: 2.5.3
+  talker_dio_logger: 4.7.2
+  talker_flutter: 4.7.2
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  auto_route_generator: 10.0.1
+  build_runner: 2.4.15
+  flutter_lints: 5.0.0
+  retrofit_generator: 9.1.9
+  injectable_generator: 2.7.0
+
+flutter:
+  uses-material-design: true
